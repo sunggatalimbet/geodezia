@@ -13,8 +13,8 @@ export const ProvidedServices = () => {
 				Услуги
 			</h1>
 
-			<section className="flex items-center justify-center w-full my-20">
-				<div className="my-20 flex flex-wrap flex-row-reverse h-full relative items-center justify-center w-full text-white">
+			<section className="flex items-center justify-center w-full my-10 sm:my-20">
+				<div className="my-10 sm:my-20 flex flex-wrap flex-row-reverse h-full relative items-center justify-center w-full text-white">
 					<div>
 						{servicesTriangles.slice(0, 3).map((service, index) => (
 							<div
@@ -24,7 +24,7 @@ export const ProvidedServices = () => {
 								<img
 									src={service.imgSrc}
 									style={{ clipPath: service.imgClip }}
-									className="saturate-0 w-[100px] sm:w-auto group-hover:saturate-100 group-hover:scale-110 group-hover:z-[100] transition-transform duration-150"
+									className="saturate-0 w-[100px] sm:w-auto group-hover:saturate-100 group-hover:scale-105 group-hover:z-[100] transition-transform duration-150"
 								/>
 								<h3
 									style={{ fontFamily: "Poppins, sans-serif" }}
@@ -45,7 +45,7 @@ export const ProvidedServices = () => {
 								<img
 									src={service.imgSrc}
 									style={{ clipPath: service.imgClip }}
-									className="saturate-0 w-[100px] sm:w-auto group-hover:saturate-100 group-hover:scale-110 group-hover:z-[100] transition-transform duration-150"
+									className="saturate-0 w-[100px] sm:w-auto group-hover:saturate-100 group-hover:scale-105 group-hover:z-[100] transition-transform duration-150"
 								/>
 								<h3
 									style={{ fontFamily: "Poppins, sans-serif" }}
