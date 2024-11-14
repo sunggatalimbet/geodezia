@@ -45,7 +45,7 @@ export const ProvidedServices = () => {
 								<img
 									src={service.imgSrc}
 									style={{ clipPath: service.imgClip }}
-									className="saturate-0 w-[100px] sm:w-auto group-hover:saturate-100 group-hover:scale-105 group-hover:z-[100] transition-transform duration-150"
+									className="saturate-0 w-[100px] sm:w-auto group-hover:saturate-100 group-hover:scale-110 group-hover:z-[100] transition-transform duration-150"
 								/>
 								<h3
 									style={{ fontFamily: "Poppins, sans-serif" }}
