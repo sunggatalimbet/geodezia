@@ -5,7 +5,7 @@ import { services, servicesTriangles } from "../../lib/constants";
 
 export const ProvidedServices = () => {
 	return (
-		<article className="min-h-screen w-full flex flex-col items-center justify-center gap-10">
+		<article className="min-h-screen w-full flex flex-col items-center justify-center gap-10 pt-4">
 			<h1
 				style={{ fontFamily: "Montserrat, sans-serif" }}
 				className="font-medium text-[70px] text-white"
@@ -13,7 +13,7 @@ export const ProvidedServices = () => {
 				Услуги
 			</h1>
 
-			<section className="flex items-center justify-center w-full">
+			<section className="flex items-center justify-center w-full my-20">
 				<div className="my-20 flex flex-wrap flex-row-reverse h-full relative items-center justify-center w-full text-white">
 					<div>
 						{servicesTriangles.slice(0, 3).map((service, index) => (
@@ -28,7 +28,7 @@ export const ProvidedServices = () => {
 								/>
 								<h3
 									style={{ fontFamily: "Poppins, sans-serif" }}
-									className={`${service.textPos} group-hover:font-bold text-[14px] max-w-[115px] text-center font-medium tracking-[5%] leading-[15px] transition-all`}
+									className={`${service.textPos} group-hover:font-bold text-[10px] md:text-[14px] max-w-[90px] md:max-w-[115px] text-center font-medium tracking-[5%] leading-[15px] transition-all`}
 								>
 									{service.text}
 								</h3>
@@ -49,7 +49,7 @@ export const ProvidedServices = () => {
 								/>
 								<h3
 									style={{ fontFamily: "Poppins, sans-serif" }}
-									className={`${service.textPos} group-hover:font-bold text-[14px] max-w-[115px] text-center font-medium tracking-[5%] leading-[15px] transition-all`}
+									className={`${service.textPos} group-hover:font-bold text-[10px] md:text-[14px] max-w-[90px] md:max-w-[115px] text-center font-medium tracking-[5%] leading-[15px] transition-all`}
 								>
 									{service.text}
 								</h3>

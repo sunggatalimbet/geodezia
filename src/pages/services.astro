@@ -1,6 +1,7 @@
 ---
 import {Layout} from '../layouts'; // Import the layout component
 import { ProvidedServices } from '../components/services';
+const currentPath = Astro.url.pathname;
 ---
 
 <html lang="en">
@@ -12,7 +13,7 @@ import { ProvidedServices } from '../components/services';
 		<title>Геодезия - инженерные изыскания и проектирование </title>
 	</head>
 	<body>
-        <Layout>
+        <Layout currentPath={currentPath}>
             <ProvidedServices/>
         </Layout>
 	</body>
